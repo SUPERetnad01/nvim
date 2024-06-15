@@ -19,8 +19,8 @@ return {
       ui.nav_file(3)
     end, { desc = 'go to third file' })
 
-    vim.keymap.set('n', '<C-r>', function()
-      ui.nav_file(4)
-    end, { desc = 'go to fourth file' })
+    -- vim.keymap.set('n', '<C-r>', function()
+    --   ui.nav_file(4)
+    -- end, { desc = 'go to fourth file' })
   end,
 }
